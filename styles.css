@@ -63,7 +63,7 @@ body{
 text-align: center;
 font-family:fantasy ;
 font-size: 20px;
-color:green;
+color:navy;
 width: 18%;
 margin-left: auto;
 margin-right: auto;
@@ -443,7 +443,7 @@ body{
     .story{
         width: 80%;
         right: 60%;
-        top: 42%;
+        top: 40%;
         font-size: 15px;
     }
     .social{
@@ -455,5 +455,14 @@ body{
     .nav{
         width:10%;
        left: 65%;
+    }
+    .nav li a{
+        text-decoration: underline lightgreen;
+    }
+    .contact{
+       display: none;
+    }
+    .logo-img{
+        margin-left: 30%;
     }
  }
