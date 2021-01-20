@@ -404,5 +404,13 @@ color: #333;
 .Prices{
     width: 50%;
 }
-
+body{
+    width: 100%;
+}
+.circle-img{
+    position: absolute;
+    width: 100%;
   }
+  
+    
+}
