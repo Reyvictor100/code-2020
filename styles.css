@@ -397,4 +397,12 @@ color: #333;
   }
   }
   
-  
+  @media screen and (max-width:450px) {
+  .background{
+      width: 100%;
+  }
+.Prices{
+    width: 50%;
+}
+
+  }
