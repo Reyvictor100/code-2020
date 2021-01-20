@@ -1,0 +1,400 @@
+html, body{
+    height: 100%;
+}
+
+.logo-img {
+border: solid black 5px;
+border-radius: 50%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 13%;
+transition: all .5s;
+}
+
+.name{
+   text-align: center;
+   color:lightpink;
+   font-size: 35px;
+}
+
+.creater{
+    text-align: center;
+    color:aqua;
+}
+
+body{
+    background-color:lemonchiffon;
+}
+
+.background{
+    background-image: url("images/Caribbean-beach.jpg") ;
+    background-size: 1920px 700px;
+    height: 65vh;
+    background-position: top center;
+    position:absolute;
+    left:0;
+    right:0;
+    top: 0%;
+    bottom:20px;
+    z-index: -1;
+    box-shadow:gray 3px 3px 3px 3px ;
+    }
+
+.social{
+    position: absolute;
+    bottom:10px;
+    right: 5%;
+    }
+
+.social li {
+   display: inline-block;  
+}
+
+.social li a{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 5px;
+    text-decoration: none;
+    color:rosybrown;
+}
+
+.product-list{
+text-align: center;
+font-family:fantasy ;
+font-size: 20px;
+color:darkslateblue;
+width: 18%;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+.story{
+    position: absolute;
+    margin-left: 65%;
+    margin-right: 8%;
+    top: 6.5%;
+   font-family:cursive;
+   font-size: 16px;
+   color:black;
+   border: solid 3px rgb(247, 247, 250);
+   padding: 7px;
+   border-radius: 15px;
+   width: 30%;
+   
+}
+.goku{
+    position: absolute;
+    top: 68%;
+    width: 10%;
+    margin-right: 50%;
+    margin-left:62% ;
+    border: solid burlywood 3px;
+    border-radius: 40%;
+    transition: all .8s;
+    box-shadow: darkgrey 3px 3px 3px 3px;
+}
+
+.mermaid {
+
+    position: absolute;
+    top: 68%;
+    width: 10%;
+    margin-right: 50%;
+    margin-left:45% ;
+    border: solid burlywood 3px;
+    border-radius: 40%; 
+    transition: all .8s;
+    box-shadow: darkgrey 3px 3px 3px 3px;
+}
+
+.mermaid:hover{
+    transform: scale(2)  
+}
+
+.sad-girl{
+    position: absolute;
+    top: 68%;
+    width: 10%;
+    margin-right: 70%;
+    margin-left:28% ;
+    border: solid burlywood 3px;
+    border-radius: 40%;
+    transition: all .8s;
+    box-shadow: darkgrey 3px 3px 3px 3px;
+}
+.goku:hover {
+    transform: scale(2) rotate(360deg)
+}
+
+.sad-girl:hover{
+    transform: scale(2) rotate(360deg)
+    
+}
+
+.bows{
+    position: absolute;
+    top: 68%;
+    width: 10%;
+    margin-right: 50%;
+    margin-left:79% ;
+    border: solid burlywood 3px;
+    border-radius: 40%;
+    transition: all .8s;
+    box-shadow: darkgrey 3px 3px 3px 3px; 
+    
+}
+
+.bows:hover{
+    transform: scale(2)  
+}
+
+
+.Prices{
+    position: absolute;
+    bottom: 8%;
+    margin-left: 4%;
+    margin-right: auto;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color:mediumpurple;
+    border:solid turquoise 3px;
+    border-radius: auto;
+    padding:10px;
+    background-color: cornsilk;   
+    transition: all .5s;
+    animation: shake 1s infinite;
+    animation-direction: alternate;
+    box-shadow: black 3px 3px 3px 3px;
+    
+}
+
+@keyframes shake {
+    0% {
+      transform: rotate(8deg);
+    }
+    100% {
+      transform: rotate(-8deg);
+    }
+  }
+
+.bio-title{
+margin-right:auto;
+margin-left:40%;
+display: block;
+color:darkslateblue;
+
+}
+.copy{
+    position: absolute;
+    bottom: 10px;
+}
+
+.price-title{
+    margin-left: 34%;
+    margin-right: 40%;
+}
+
+.contact{
+    position: absolute;
+    top:5px;
+    left: 14%;
+    font-family: cursive;
+    font-size: 20px;
+    color:lightslategray;
+    text-shadow:black 1px 1px;
+    transition: .3s;
+    width: 70%; 
+}
+
+.contact:hover{
+font-size: 150%;
+}
+
+.nav{
+  position: absolute;
+  top: 3px;
+  right: 10%;
+}
+
+.nav li{
+display: inline-block;
+}
+
+.nav li a {
+    color: papayawhip;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 22px;
+}
+
+.nav li a:hover{
+background: #fff;
+color: #333;
+}
+
+
+ /* ipad pro */
+  @media screen and (max-width:1024px){
+      .sad-girl{
+          margin-left: 15%;
+      }
+      .mermaid{
+          margin-left: 35%;
+      }
+      .goku{
+          margin-left: 55%;
+      }
+      .bows{
+         
+          margin-left: 75%;
+      }
+      .Prices{
+          bottom: 2%;
+          right: 35%;
+          width: 30%;
+          height: 15vh;
+          font-size: 16px ;
+          padding-top: 0;
+         
+      }
+
+      .background{
+          background-repeat: no-repeat;
+        
+      }
+      .story{
+          width: 30%;
+          margin-right: 10%;
+          margin-left: 65%;
+      }
+      .contact{
+          left: 5%;
+      }
+      .product-list{
+          width: 25%;
+      }
+      .nav li a{
+          font-size: 20px;
+      }
+
+      .nav{
+          left: 65%;
+          margin-right: 0%;
+          margin-left: 7%;
+          right:0%;
+      }
+      .circle-img{
+          position: relative;
+          top: 5%;
+          bottom: 30%;
+          margin-top: 10%;
+          margin-bottom: 50%;
+          width: 100vh;
+          right: auto;
+          left:auto;     
+      }
+
+      .background{
+        width: 100vh;
+        margin-left: 0;
+        margin-right: 0;
+     }
+
+    .bio-title{
+        margin-left: 30%;
+    }
+  }
+
+  @media screen and (max-width:700px) {
+
+    .contact{
+        font-size: 6px;
+       margin-top: 15%;
+       margin-right: 20%;
+      left: 0;
+      
+    }
+
+    .Prices{
+        font-size: 12px;
+        margin-left: 17%;
+        width: 40%;
+        top: 80%;
+        
+        }
+        .product-list{
+        font-size: 15px;
+        margin-left: 15%;
+        margin-right: 40px;
+        width: 70%;
+        margin-top: 0;
+        }
+        
+        .story{
+            position: relative;
+            width: 50%;
+            bottom: 5px;
+            top: 35%;
+            right: 70%;
+            font-size: 8px;
+        }
+        .bows{
+            
+            margin-left: 50%;
+            }
+.sad-girl{
+    margin-left: 3% ;
+}
+.mermaid{
+    margin-left: 19%;
+}
+.goku{
+    margin-left: 35%;
+}
+    
+.background{
+   width: 100vh;
+   margin-left: 0;
+   margin-right: 0;
+}
+.creater{
+    bottom: 20%;
+    margin-top: 0%;
+    margin-bottom: 0;
+}
+
+.name{
+    margin-top: 10%;
+}
+
+.logo-img{
+    width: 35%;
+    margin-top: 15%;
+    margin-bottom: 0;
+    margin-right: 10%;
+}
+.nav{
+   left:50%;
+}
+.copy{
+    position: relative;
+    bottom: 10%;
+    top:45%
+}
+.circle-img{ 
+    position:absolute;
+
+   bottom: auto;
+   top: 60%;
+  
+  }
+  }
+  
+  

@@ -1,0 +1,86 @@
+/* Start by setting browser page height to 100% */
+html,
+body{
+    height:100%
+}
+
+
+/* You make a class for an element 
+<section class="story">
+<p>Story of my life, i was always the big kid since i could
+remember. I always had trouble to lose the weight i felt i 
+needed</p>
+</section> */
+/* then you call to a class "story" to modify in css*/
+.story{
+margin-left: auto;
+margin-right: auto;
+}
+
+
+/* If you set position:relative; it will keep the element relative to the rest of
+the page. Setting the top, right, bottom, and left properties of a relatively-positioned
+element will cause it to be adjusted away from its normal position. Other content will
+not be adjusted to fit into any gap left by the element.
+
+If you set the position:absolute; it will move the element where ever you position
+it using left:0; right:0; top:0; bottom:0; 
+
+Items are position:static by default, static is not affected by top; bottom;
+left; right;
+
+An element with position:fixed; is positioned relative to the viewport,
+which means it always stays in the same place even if the page is scrolled.
+The top, right, bottom, and left properties are used to position the element.
+
+If items are position:absolute; it is positioned relative to the nearest positioned
+ancestor (instead of positioned relative to the viewport, like fixed).
+*/
+.story{
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+}
+.story{
+    position: relative;
+}
+
+
+/* To adjust the size of an item us the height:auto; && width:auto */
+.story{
+    height: auto;
+    width: auto;
+}
+
+
+/* To add an animation when you hover over and element add a transition to .story
+then create .story:hover{} and add an effect */
+.story{
+    transition: .3s;
+}
+.story:hover{
+    font-size: 200%;
+    rotate: (360deg);
+}
+
+
+/* To put a border around an element use the border: solid color 3px; 
+To curve the corner and make the border round use border-radius:50%; */
+.story{
+    border: solid green 3px;
+    border-radius: 50%;
+}
+
+
+/* To add padding on both sides on an element use padding:10px */
+.story{
+    padding: 10px;
+}
+
+
+/* How to add shadow to an element use box-shadow: 3px 3px 3px 3px; */
+.story{
+    box-shadow: 3px 3px 3px 3px;
+}
