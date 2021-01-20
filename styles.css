@@ -402,9 +402,18 @@ color: #333;
       width: 100%;
   }
 .Prices{
-    width: 50%;
+    width: 70%;
+    right: 12%;
+    font-size: 15px;
+}
+.price-title{
+    margin-top: 0;
+}
+.price-list{
+    margin-top: 5px;
 }
 body{
+    
     width: 100%;
 }
 .circle-img{
@@ -431,4 +440,20 @@ body{
         width: 18%;
         margin-left:1px ;
     }
-}
+    .story{
+        width: 80%;
+        right: 60%;
+        top: 42%;
+        font-size: 15px;
+    }
+    .social{
+   
+     top: 1px;
+     left: 5px;
+     
+    }
+    .nav{
+        width:10%;
+       left: 65%;
+    }
+ }
