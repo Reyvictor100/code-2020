@@ -408,9 +408,27 @@ body{
     width: 100%;
 }
 .circle-img{
-    position: absolute;
+    position:absolute;
     width: 100%;
-  }
-  
     
+    margin-right: 0%;
+   
+  }
+  .bows{
+      width:18%;
+      left: 26%;
+      margin-right: 1px; 
+  }
+  .goku{
+      width: 18%;
+      left:16%;
+  }
+    .mermaid{
+        width: 18%;
+        left: 6%;
+    }
+    .sad-girl{
+        width: 18%;
+        margin-left:1px ;
+    }
 }
