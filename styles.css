@@ -456,6 +456,7 @@ body{
         margin-left: 30%;
     }
     .name{
-        margin-bottom: 0%;
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
  }
