@@ -3,7 +3,7 @@ html, body{
 }
 
 .logo-img {
-border: solid black 5px;
+border: solid wheat 5px;
 border-radius: 50%;
 display: block;
 margin-left: auto;
@@ -240,6 +240,46 @@ display: inline-block;
 background: #fff;
 color: #333;
 }
+.vegeta{
+    position: absolute;
+    width: 18%;
+    top: 30%;
+    left: 5%;
+      
+}
+.new{
+    position: absolute;
+    color:indigo;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color:khaki;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    top: 30%;
+    left: 8%;
+    transition: all .5s;
+    animation: size 1.5s infinite;
+    animation-timing-function: linear;
+   
+}
+ 
+@keyframes size {
+    0% {
+      transform: scale(1) rotate(-20deg);
+    }
+    25% {
+        transform: scale(1.2)  rotate(-20deg);
+    }
+    50% {
+        transform: scale(1.4)  rotate(-20deg);
+    }
+    75% {
+        transform: scale(1.2)  rotate(-20deg);
+    }
+    100% {
+      transform: scale(1)  rotate(-20deg);
+    }
+  }
 
 
  /* ipad pro */
