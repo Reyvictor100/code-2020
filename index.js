@@ -1,1 +1,0 @@
-prompt(`Hello, would you like to spin the wheel?`)
