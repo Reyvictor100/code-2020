@@ -24,7 +24,7 @@ ul{
     font-size: 1.5rem;
 }
 a{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* element layout header */
@@ -47,7 +47,7 @@ a{
     padding: 20px 0 10px 0;
 }
 .nav li a {
-    color:green ;
+    color:darkolivegreen ;
 }
 .main-header img{
     width: 75px;
@@ -137,3 +137,65 @@ margin-bottom: 50px;
  
 /*footer*/
 
+/*flex-box*/
+@media (min-width: 1000px) {
+    .creator{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    .main-header{
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .main-header h1{
+        font-size: 4rem;
+    }
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        background-color: black;
+    }
+    .nav li a{
+        font-size: 2rem;
+        padding: 19px 100px 10px 100px;
+        background-color: whitesmoke;
+    }
+    .logo{
+        align-self: center;
+        margin: 30px 0 0 0;
+        width: 500px;
+    }
+    .main-header img{
+        width: 10%;
+        height:10%;
+        min-width: 100px
+    }
+    .about-me{
+        margin: 50px auto 50px auto;
+        max-width: 800px;
+    }
+    .images h2{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .pictures{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .social-media{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    max-width: 90%;
+    }
+    .social-media li a{
+        font-size: 2rem;
+        padding: 0 70px 0 70px;
+    }
+}
+@media (min-width: 1500px) {
+    
+}
