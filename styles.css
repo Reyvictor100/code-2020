@@ -56,12 +56,16 @@ border: solid lightskyblue 2px;
 border-radius: 10px 20px 10px 20px;
 padding: 10px 10px 10px 10px;
 font-size: 1.2rem;
-background-color: linen;
+/* background-color: linen; */
+background-image: linear-gradient(to bottom, lightcoral 25%, lightpink 50%, honeydew 75%, mistyrose 100%);
 line-height:1.3 ;
 }
 .about-me h2{
     margin: 0 0 10px 0;
-    color:indigo ;
+    color: indigo;
+}
+.about-me p{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* a few pictures*/
@@ -75,7 +79,9 @@ line-height:1.3 ;
     box-shadow: 5px 10px 8px darkslategray;
 }
 .images h2{
-    color: indigo;
+    background-image: linear-gradient(to right, aqua 25%, orchid 50%, palegreen 75%, gold 100%);
+    padding: 10px 0 10px 0;
+    color: black;
 }
 .pictures{
     margin-top: 30px;
