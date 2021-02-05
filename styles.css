@@ -29,17 +29,17 @@ a{
 
 /* element layout header */
 .main-header{
-}
-.main-header h1, .nav{
-    text-align: center;
-}
-.creator{
     background-image: url("images/Caribbean-beach.jpg");
     background-position: center;
     background-size: cover, 250px;
     background-repeat: no-repeat;
     background-color: lightslategray;
     background-blend-mode:multiply;
+}
+.main-header h1, .nav{
+    text-align: center;
+}
+.creator{
     padding: 20px 0 70px 0;
 }
 .nav li{
@@ -51,18 +51,15 @@ a{
 }
 .products{
     background-color: whitesmoke;
-    margin: 0 20px 0 20px;
     border: solid black 1px;
 }
 .coming-soon{
     background-color: whitesmoke;
-    margin: 0 20px 0 20px;
     border: solid black 1px;
     border-top: none;
 }
 .shop{
     background-color: whitesmoke;
-    margin: 20px 20px 0 20px;
     border: solid black 1px;
     border-bottom:none;
 }
@@ -159,7 +156,6 @@ margin-bottom: 50px;
     .creator{
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
     }
     .logo{
             align-self: center;
@@ -177,11 +173,15 @@ margin-bottom: 50px;
     }
 }
 @media (min-width: 1105px) {
+    .main-header{
+        display: flex;
+        width: 100%;
+    }
     .creator{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-
+        align-items:flex-start;
+        padding-left: 50px;
     }
     .main-header{
         width: 100%;
@@ -193,34 +193,47 @@ margin-bottom: 50px;
     .nav{
         display: flex;
         flex-direction: row;
-        justify-content:space-evenly;
-        background-color: black;
+        justify-content: flex-end;
+        margin-top:20px ;
+        margin-bottom: auto;
+        margin-left: auto;
+    }
+    .nav li{
+        align-content: flex-end;
     }
     .nav li a{
-        font-size: 2rem;
-        background-color: whitesmoke;
-        padding: 10px 100px 10px 100px;
+        font-size: 1.5rem;
+        padding: 0px 30px 0px 30px;
+
+    }
+    .products{
+        margin: auto 20px auto 0px;
     }
     .shop{
         margin-top: 0;
         margin-bottom: 1px;
+        border-bottom: solid black 1px;
+        margin: auto 20px auto 20px;
+    }
+    .coming-soon{
+        margin-right: 20px;
+        border-top: solid black 1px;
     }
     .logo{
-        align-self: center;
-        margin: 30px 0 0 0;
-        width: 500px;
+        align-self:flex-start;
+        margin: -150px 0 0 550px;
+        max-width: 300px;
     }
     .main-header img{
-        width: 10%;
-        height:10%;
-        min-width: 100px
+        width: 8%;
+        height: 8%;
     }
     .about-me{
         margin: 50px auto 50px auto;
         max-width: 800px;
     }
     .images h2{
-        max-width: 90%;
+        max-width: 60%;
         margin: 0 auto;
     }
     .pictures{
@@ -232,11 +245,11 @@ margin-bottom: 50px;
     display: flex;
     justify-content: center;
     margin: 50px auto 50px auto;
-    max-width: 90%;
+    max-width: 50%;
     }
     .social-media li a{
         font-size: 2rem;
-        padding: 0 70px 0 70px;
+        padding: 0 40px 0 40px;
     }
 }
 @media (min-width: 1500px) {
