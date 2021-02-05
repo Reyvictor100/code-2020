@@ -63,6 +63,11 @@ a{
     border: solid black 1px;
     border-bottom:none;
 }
+.prices{
+    background-color: whitesmoke;
+    border: solid black 1px;
+    border-top:none;
+}
 .main-header img{
     width: 75px;
     border: solid tomato 1px;
@@ -102,11 +107,6 @@ line-height:1.3 ;
     margin-top: 40px;
     font-size: 1.2rem;
 }
-.images img{
-    border: solid black 1px;
-    border-radius: 30% 35% 30% 35%;
-    box-shadow: 5px 10px 8px darkslategray;
-}
 .images h2{
     background-image: linear-gradient(to right, aqua 25%, orchid 50%, palegreen 75%, gold 100%);
     padding: 10px 0 10px 0;
@@ -119,17 +119,40 @@ line-height:1.3 ;
     text-align: center;
 }
 .goku{
-width: 300px;
+width: 150px;
 margin-bottom: 30px;
+margin-right: 20px;
+border: solid black 1px;
+border-radius: 30% 35% 30% 35%;
+box-shadow: 3px 5px 15px darkslategray;
 }
 .mermaid{
-    width: 300px;
+    width: 150px;
     margin-bottom: 30px;
+    border: solid black 1px;
+    border-radius: 30% 35% 30% 35%;
+    box-shadow: 3px 5px 15px darkslategray;
 }
 .sad-girl{
-width: 300px;
-margin-bottom: 50px;
+width: 150px;
+margin-bottom: 30px;
+margin-right: 20px;
+border: solid black 1px;
+border-radius: 30% 35% 30% 35%;
+box-shadow: 3px 5px 15px darkslategray;
 }
+.bows{
+    width: 150px;
+    margin-bottom: 30px;
+    border: solid black 1px;
+    border-radius: 30% 35% 30% 35%;
+    box-shadow: 3px 3px 15px darkslategray;
+}
+.broly{
+    box-shadow:  5px 10px 20px darkslategray;
+    margin-bottom: 30px;
+}
+/* social media tags*/
 .social-media{
     text-align: center;
     margin-bottom: 30px;
@@ -197,6 +220,7 @@ margin-bottom: 50px;
         margin-top:20px ;
         margin-bottom: auto;
         margin-left: auto;
+        flex-wrap: wrap;
     }
     .nav li{
         align-content: flex-end;
@@ -218,6 +242,9 @@ margin-bottom: 50px;
     .coming-soon{
         margin-right: 20px;
         border-top: solid black 1px;
+    }
+    .prices{
+        margin-right: 20px;
     }
     .logo{
         align-self:flex-start;
