@@ -155,7 +155,15 @@ margin-bottom: 50px;
 /*footer*/
 
 /*flex-box*/
-@media (min-width: 1000px) {
+@media (min-width: 600px){
+    .pictures{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (min-width: 1105px) {
     .creator{
         display: flex;
         flex-direction: column;
@@ -172,13 +180,17 @@ margin-bottom: 50px;
     .nav{
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        justify-content:space-evenly;
         background-color: black;
     }
     .nav li a{
         font-size: 2rem;
-        padding: 19px 100px 10px 100px;
         background-color: whitesmoke;
+        padding: 10px 100px 10px 100px;
+    }
+    .shop{
+        margin-top: 0;
+        margin-bottom: 1px;
     }
     .logo{
         align-self: center;
@@ -200,6 +212,7 @@ margin-bottom: 50px;
     }
     .pictures{
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
     }
     .social-media{
