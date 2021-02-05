@@ -44,10 +44,27 @@ a{
 }
 .nav li{
     display: block;
-    padding: 20px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 .nav li a {
     color:darkolivegreen ;
+}
+.products{
+    background-color: whitesmoke;
+    margin: 0 20px 0 20px;
+    border: solid black 1px;
+}
+.coming-soon{
+    background-color: whitesmoke;
+    margin: 0 20px 0 20px;
+    border: solid black 1px;
+    border-top: none;
+}
+.shop{
+    background-color: whitesmoke;
+    margin: 20px 20px 0 20px;
+    border: solid black 1px;
+    border-bottom:none;
 }
 .main-header img{
     width: 75px;
