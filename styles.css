@@ -191,7 +191,8 @@ box-shadow: 3px 5px 15px darkslategray;
     .pictures{
         display: flex;
         justify-content: space-evenly;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
     }
 }
@@ -214,37 +215,8 @@ box-shadow: 3px 5px 15px darkslategray;
         font-size: 4rem;
     }
     .nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        margin-top:20px ;
-        margin-bottom: auto;
-        margin-left: auto;
-        flex-wrap: wrap;
-    }
-    .nav li{
-        align-content: flex-end;
-    }
-    .nav li a{
-        font-size: 1.5rem;
-        padding: 0px 30px 0px 30px;
-
-    }
-    .products{
-        margin: auto 20px auto 0px;
-    }
-    .shop{
-        margin-top: 0;
-        margin-bottom: 1px;
-        border-bottom: solid black 1px;
-        margin: auto 20px auto 20px;
-    }
-    .coming-soon{
-        margin-right: 20px;
-        border-top: solid black 1px;
-    }
-    .prices{
-        margin-right: 20px;
+        margin: 30px 0 0 100px;
+        width: 300px;
     }
     .logo{
         align-self:flex-start;
@@ -279,6 +251,39 @@ box-shadow: 3px 5px 15px darkslategray;
         padding: 0 40px 0 40px;
     }
 }
-@media (min-width: 1500px) {
-    
+@media (min-width: 1631px) {
+    .nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top:20px ;
+        margin-bottom: auto;
+        margin-left: auto;
+        flex-wrap: wrap;
+        width: auto;
+    }
+    .nav li{
+        align-content: flex-end;
+    }
+    .nav li a{
+        font-size: 1.5rem;
+        padding: 0px 30px 0px 30px;
+
+    }
+    .products{
+        margin: auto 20px auto 0px;
+    }
+    .shop{
+        margin-top: 0;
+        margin-bottom: 1px;
+        border-bottom: solid black 1px;
+        margin: auto 20px auto 20px;
+    }
+    .coming-soon{
+        margin-right: 20px;
+        border-top: solid black 1px;
+    }
+    .prices{
+        margin-right: 20px;
+    }
 }
