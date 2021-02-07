@@ -55,9 +55,11 @@ body, html{
 }
 .twitter-pic{
     display: block;
-    width: 100%;
+    width: 95%;
+    height: 200px;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
     box-shadow:2px 3px 8px darkslategray;
+    
 }
