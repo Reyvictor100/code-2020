@@ -51,15 +51,15 @@ body, html{
     margin-bottom: 50px;
 }
 .insatgram-pic{
-    width: 160px;
+    width: 43%;
     margin-left: 5%;
     min-height: 200px;
     box-shadow:2px 3px 8px darkslategray;
 }
 .instagram-2{
-    width: 160px;
+    width: 43%;
     float: right;
-    min-height: 275px;
+    min-height: 278px;
     margin-right: 5%;
     box-shadow:2px 3px 8px darkslategray;
 }
