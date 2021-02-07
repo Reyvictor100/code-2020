@@ -56,7 +56,7 @@ body, html{
 .twitter-pic{
     display: block;
     width: 95%;
-    height: 200px;
+    height: 100%;
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
