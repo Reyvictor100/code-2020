@@ -286,4 +286,8 @@ box-shadow: 3px 5px 15px darkslategray;
     .prices{
         margin-right: 20px;
     }
+    .pictures{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }
