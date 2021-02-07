@@ -1,3 +1,4 @@
+/* universal changes*/
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -6,6 +7,7 @@
 body, html{
     background-color: papayawhip;
 }
+/* header*/
 .contact-title{
     text-align: center;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -25,7 +27,8 @@ body, html{
     color: darkturquoise;
 }
 .contacts p{
-    color: lightseagreen
+    color: lightseagreen;
+    margin-left: 30px;
 }
 .email h2, p{
     margin-bottom: 5%;
@@ -48,9 +51,16 @@ body, html{
     margin-bottom: 50px;
 }
 .insatgram-pic{
-    width: 300px;
-    display: block;
-    margin: auto;
+    width: 160px;
+    margin-left: 5%;
+    min-height: 200px;
+    box-shadow:2px 3px 8px darkslategray;
+}
+.instagram-2{
+    width: 160px;
+    float: right;
+    min-height: 275px;
+    margin-right: 5%;
     box-shadow:2px 3px 8px darkslategray;
 }
 .twitter-pic{
