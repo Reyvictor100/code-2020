@@ -7,6 +7,9 @@
 body, html{
     background-color: papayawhip;
 }
+h2{
+    text-shadow:2px 2px darkslategrey ;
+}
 /* header*/
 .contact-title{
     text-align: center;
@@ -15,6 +18,7 @@ body, html{
     color: blueviolet;
     background-color:mistyrose ;
     padding: 20px 0 20px 0;
+    text-shadow: 2px 2px lightskyblue;
 }
 .contacts{
     margin-left: 10%;
