@@ -16,6 +16,16 @@ html{
 img{
     width: 100%;
 }
+a {
+    color: white;
+    background-color: red;
+    padding:3px 3px 3px 3px;
+    border-radius: 5px;
+}
+p{
+    margin-bottom: 3px;
+    color: rosybrown;
+}
  /*header*/
  .main-header{
      font-size: 1.2rem;
@@ -23,7 +33,7 @@ img{
      text-align: center;
      background-color: mistyrose;
      margin-bottom: 30px;
-     padding: 10px 0 10px 0;
+     padding: 20px 0 20px 0;
  }
  .row-1{
      display: flex;
@@ -34,6 +44,9 @@ img{
      width: 115px;
  }
  .row-1 p {
+     text-align: center;
+ }
+ .row-1 li{
      text-align: center;
  }
  
