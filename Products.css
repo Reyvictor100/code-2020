@@ -120,6 +120,24 @@ h3{
 .row-4 h3{
     text-align: center;
 }
+/*row-5*/
+.row-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+ .row-5 img{
+    width: 115px;
+}
+.row-5 p {
+    text-align: center;
+}
+.row-5 li{
+    text-align: center;
+}
+.row-5 h3{
+    text-align: center;
+}
 /* footer*/
 footer{
 
