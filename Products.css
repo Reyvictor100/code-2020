@@ -18,6 +18,8 @@ img{
 }
 a {
     color: white;
+    font-size: 1.1rem;
+    font-family: 'Akaya Kanadaka', cursive;
     background-color: red;
     padding:3px 3px 3px 3px;
     border-radius: 5px;
@@ -35,12 +37,13 @@ h3{
 }
  /*header*/
  .main-header{
-     font-size: 1.2rem;
+     font-size: 1.3rem;
+     font-family: 'Reggae One', cursive;
      color: blueviolet;
      text-align: center;
      background-color: mistyrose;
      margin-bottom: 20px;
-     padding: 20px 0 20px 0;
+     padding:10px 0 10px 0;
  }
  /*row 1*/
  .row-1{
@@ -100,3 +103,25 @@ h3{
     min-height: 91px;
 }
 /*row 4*/
+.row-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+ .row-4 img{
+    width: 115px;
+}
+.row-4 p {
+    text-align: center;
+}
+.row-4 li{
+    text-align: center;
+}
+.row-4 h3{
+    text-align: center;
+}
+/* footer*/
+footer{
+
+margin-bottom: 0%;
+}
