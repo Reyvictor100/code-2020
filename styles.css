@@ -24,7 +24,7 @@ ul{
     list-style-type: none;
     font-size: 1.5rem;
 }
-a{
+a{  color:seashell;
     text-decoration: none;
 }
 
@@ -182,10 +182,18 @@ box-shadow: 3px 5px 15px darkslategray;
 .social-media li a{
     text-decoration: none;
     margin-right: 10px;
-    color:whitesmoke;
+}
+.social-media li {
+    color: seashell;
 }
 .fa-instagram{
     padding-right:25px;
+}
+.fa-twitter{
+color: lightskyblue;
+}
+.fa-instagram{
+    color: palevioletred;
 }
 
  
