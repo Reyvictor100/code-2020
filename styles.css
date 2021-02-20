@@ -156,7 +156,19 @@ box-shadow: 3px 5px 15px darkslategray;
 .broly{
     box-shadow:  5px 10px 20px darkslategray;
     margin-bottom: 30px;
+    animation: tilt 2s infinite;
+    animation-direction: alternate;
 }
+@keyframes tilt{
+    0% {
+        transform:rotate(6deg)
+    }
+    100%{
+        transform:rotate(-5deg)
+    }
+}
+
+
 /* social media tags*/
 .social-media{
     text-align: center;
